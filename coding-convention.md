@@ -12,4 +12,9 @@
 The naming of tests must be the following one:
 `FunctionTested`_`WithKindOfArguments`_`ExpectedResult`
 
-For example: `CreateMember_WithNonExistingOrgId_Fails`
+If no arguments are passed, then the naming can be reduced to:
+`FunctionTested`_`ExpectedResult`
+
+For example: 
+* `CreateMember_WithNonExistingOrgId_Fails`
+* `GetAdminRoleId_Succeeds`
